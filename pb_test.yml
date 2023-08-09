@@ -1,6 +1,5 @@
 ---
 - name: ping hosts
-  hosts: DEV-DHCP
   become: false
   tasks:
     - name: test connection
